@@ -40,14 +40,27 @@
             </tr>
             <tr>
                 <td><label for="arrival">Arrival:</label></td>
-                <td><input type="text" name="arrivaldate" id="arrivaldate"></td></td>
+                <td><input type="date" name="arrivaldate" id="arrivaldate">
+                    <input type="time" name="arrivaltime" id="arrivaltime"></td>
+            </tr>
+            <tr>
+                <td><label for="departure">Departure:</label></td>
+                <td><input type="date" name="departuredate" id="departuredate">
+                    <input type="time" name="departuretime" id="departuretime"></td>
+            </tr>
+            <tr>
+                <td><label for="pickup">Free Pickup:</label><br></td>
+                <td><input type="radio" name="Yes" id="Yes" value="Yes">Yes,Sure!<br>
+                    <input type="radio" name="No" id="No" value="No">No,I already rented a car.</td>
+            </tr>
+            <tr>
+                <td><label for="flightnum">Flight Number:</label></td>
+                <td><input type="text" name="flightnum" id="flightnum"></td>
             </tr>
             
-            <br><br>
-    
             <tr>
                 <td>Other requests:</td>
-                <td><Textarea name="commmet" id="comment" rows="5" cols="50"></Textarea></td>
+                <td><Textarea name="otherreq" id="comment" rows="5" cols="50"></Textarea></td>
             </tr>
             <tr>
                 <td></td>
